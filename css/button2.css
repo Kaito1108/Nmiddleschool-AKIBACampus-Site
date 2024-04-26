@@ -59,13 +59,14 @@ a.btn_24 {
 @media screen and (max-width: 680px) {
     a.btn_24 {
         display: block;
-        text-align: center;
+        text-align: left;
         vertical-align: middle;
         text-decoration: none;
-        width: 20px;
+        width: 10px;
         margin: auto;
         padding: 1rem 2rem;
         font-weight: bold;
+        font-size: 10px;
         border-radius: 4px;
         border: 1px solid #27acd9;
         color: #ffffff;
