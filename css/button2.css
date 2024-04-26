@@ -56,6 +56,23 @@ a.btn_24 {
     }
 }
 
+@media screen and (max-width: 680px) {
+    a.btn_24 {
+        display: block;
+        text-align: center;
+        vertical-align: middle;
+        text-decoration: none;
+        margin: auto;
+        padding: 1rem 2rem;
+        font-weight: bold;
+        border-radius: 4px;
+        border: 1px solid #27acd9;
+        color: #ffffff;
+        z-index: 1;
+        transition: all 0.2s ease-in;
+    }
+}
+
 a.btn_24:before {
     content: "";
     position: absolute;
