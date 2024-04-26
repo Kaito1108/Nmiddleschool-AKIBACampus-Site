@@ -16,6 +16,46 @@ a.btn_24 {
     transition: all 0.2s ease-in;
 }
 
+@media screen and (max-width: 900px) {
+    a.btn_24 {
+        display: block;
+        text-align: center;
+        vertical-align: middle;
+        text-decoration: none;
+        width: 60px;
+        margin: auto;
+        padding: 1rem 4rem;
+        font-weight: bold;
+        border-radius: 4px;
+        border: 1px solid #27acd9;
+        color: #ffffff;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        transition: all 0.2s ease-in;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    a.btn_24 {
+        display: block;
+        text-align: center;
+        vertical-align: middle;
+        text-decoration: none;
+        width: 40px;
+        margin: auto;
+        padding: 1rem 4rem;
+        font-weight: bold;
+        border-radius: 4px;
+        border: 1px solid #27acd9;
+        color: #ffffff;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        transition: all 0.2s ease-in;
+    }
+}
+
 a.btn_24:before {
     content: "";
     position: absolute;
