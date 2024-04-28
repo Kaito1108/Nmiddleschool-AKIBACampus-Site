@@ -83,3 +83,7 @@ body {
 img {
     vertical-align: bottom;
 }
+
+a {
+    cursor: pointer;
+}

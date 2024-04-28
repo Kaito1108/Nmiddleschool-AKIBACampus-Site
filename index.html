@@ -5,15 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>秋葉原キャンパス公式サイト</title>
+    <link rel="icon" href="https://n-jr.jp/favicon_16.ico">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">  
+
+    <!--Popup-->
+    <link rel="stylesheet" href="css/Popup.css">
 
     <!--Work-->
     <link rel="stylesheet" href="css/Work.css">
     <link rel="stylesheet" href="css/Workcard.css">
-    <link rel="stylesheet" href="css/Workseebutton.css">
+
+    <!--Blog-->
     <link rel="stylesheet" href="css/Blogcard.css">
+
+    <!--Detail-->
     <link rel="stylesheet" href="css/DetailsButton.css">
+    <link rel="stylesheet" href="css/Background.css">
 </head>
 
 <body>
@@ -33,60 +41,66 @@
 
             <!--1列目-->
             <div style="display: flex;">
-                <div style="top: 30%; left: 20%;" class="card">
-                    <div class="tools">
-                        <div class="circle">
-                            <span class="red box"></span>
+                <label for="popup" id="txt_label">
+                    <div style="top: 30%; left: 20%;" class="card">
+                        <div class="tools">
+                            <div class="circle">
+                                <span class="red box"></span>
+                            </div>
+                            <div class="circle">
+                                <span class="yellow box"></span>
+                            </div>
+                            <div class="circle">
+                                <span class="green box"></span>
+                            </div>
                         </div>
-                        <div class="circle">
-                            <span class="yellow box"></span>
-                        </div>
-                        <div class="circle">
-                            <span class="green box"></span>
-                        </div>
-                    </div>
-                    <div align="center" style="color: white;" class="card__content">
-                        <h3>Title</h3>
-                        <h4>Text</h4>
-                        <p style="height: 50px;"></p>
-                    </div>
-                </div>
-                <div style="top: 30%; left: 40%;" class="card">
-                    <div class="tools">
-                        <div class="circle">
-                            <span class="red box"></span>
-                        </div>
-                        <div class="circle">
-                            <span class="yellow box"></span>
-                        </div>
-                        <div class="circle">
-                            <span class="green box"></span>
+                        <div align="center" style="color: white;" class="card__content">
+                            <h3>Title</h3>
+                            <h4>Text</h4>
+                            <p style="height: 50px;"></p>
                         </div>
                     </div>
-                    <div align="center" style="color: white;" class="card__content">
-                        <h3>Title</h3>
-                        <h4>Text</h4>
-                        <p style="height: 50px;"></p>
-                    </div>
-                </div>
-                <div style="top: 30%; left: 60%;" class="card">
-                    <div class="tools">
-                        <div class="circle">
-                            <span class="red box"></span>
+                </label>
+                <label for="popup" id="txt_label">
+                    <div style="top: 30%; left: 40%;" class="card">
+                        <div class="tools">
+                            <div class="circle">
+                                <span class="red box"></span>
+                            </div>
+                            <div class="circle">
+                                <span class="yellow box"></span>
+                            </div>
+                            <div class="circle">
+                                <span class="green box"></span>
+                            </div>
                         </div>
-                        <div class="circle">
-                            <span class="yellow box"></span>
-                        </div>
-                        <div class="circle">
-                            <span class="green box"></span>
+                        <div align="center" style="color: white;" class="card__content">
+                            <h3>Title</h3>
+                            <h4>Text</h4>
+                            <p style="height: 50px;"></p>
                         </div>
                     </div>
-                    <div align="center" style="color: white;" class="card__content">
-                        <h3>Title</h3>
-                        <h4>Text</h4>
-                        <p style="height: 50px;"></p>
+                </label>
+                <label for="popup" id="txt_label">
+                    <div style="top: 30%; left: 60%;" class="card">
+                        <div class="tools">
+                            <div class="circle">
+                                <span class="red box"></span>
+                            </div>
+                            <div class="circle">
+                                <span class="yellow box"></span>
+                            </div>
+                            <div class="circle">
+                                <span class="green box"></span>
+                            </div>
+                        </div>
+                        <div align="center" style="color: white;" class="card__content">
+                            <h3>Title</h3>
+                            <h4>Text</h4>
+                            <p style="height: 50px;"></p>
+                        </div>
                     </div>
-                </div>
+                </label>
             </div>
         </div>
 
@@ -100,52 +114,81 @@
 
             <!--1列目-->
             <div style="display: flex;">
-                <div class="card" style="top: 30%; left: 20%; ">
-                    <div class="blogcard" style="--rating:90">
-                        <div class="icon">🫠</div>
-                        <div class="title">Title</div>
-                        <p class="description">Text Text Text Text</p>
+                <label for="popup" id="txt_label">
+                    <div class="card" style="top: 30%; left: 20%; ">
+                        <div class="blogcard" style="--rating:90">
+                            <div class="icon">🫠</div>
+                            <div class="title">Title</div>
+                            <p class="description">Text Text Text Text</p>
+                        </div>
                     </div>
-                </div>
-                <div class="card" style="top: 30%; left: 40%; ">
-                    <div class="blogcard" style="--rating:90">
-                        <div class="icon">🫠</div>
-                        <div class="title">Title</div>
-                        <p class="description">Text Text Text Text</p>
+                </label>
+                <label for="popup" id="txt_label">
+                    <div class="card" style="top: 30%; left: 40%; ">
+                        <div class="blogcard" style="--rating:90">
+                            <div class="icon">🫠</div>
+                            <div class="title">Title</div>
+                            <p class="description">Text Text Text Text</p>
+                        </div>
                     </div>
-                </div>
-                <div class="card" style="top: 30%; left: 60%; ">
-                    <div class="blogcard" style="--rating:90">
-                        <div class="icon">🫠</div>
-                        <div class="title">Title</div>
-                        <p class="description">Text Text Text Text</p>
+                </label>
+                <label for="popup" id="txt_label">
+                    <div class="card" style="top: 30%; left: 60%; ">
+                        <div class="blogcard" style="--rating:90">
+                            <div class="icon">🫠</div>
+                            <div class="title">Title</div>
+                            <p class="description">Text Text Text Text</p>
+                        </div>
                     </div>
-                </div>
+                </label>
+            </div>
+        </div>
+
+        <!--Work&Blog Detail PopUp-->
+        <input type="checkbox" id="popup">
+        <div id="overlay">
+            <label for="popup" id="bg_gray"></label>
+
+            <div id="window">
+                <label for="popup" id="btn_cloth">
+                    <span></span>
+                </label>
+                <div id="msg">
+                    <h1>Title</h1>
+                    <h3>Text text text text text Text text text text text Text text text text text Text text text text text <p> Text text text text text </h3>
+                    <h3>Text text text text text Text text text text text Text text text text text Text text text text text <p> Text text text text text  </h3>
+                    <h3>Text text text text text Text text text text text Text text text text text Text text text text text <p> Text text text text text </h3>
+                    <h3>Text text text text text Text text text text text Text text text text text Text text text text text <p> Text text text text text  </h3>
+                    <h3>Text text text text text Text text text text text Text text text text text Text text text text text <p> Text text text text text </h3>
+                    <h3>Text text text text text Text text text text text Text text text text text Text text text text text <p> Text text text text text  </h3>
+                    </div>
             </div>
         </div>
 
         <!--秋葉原キャンパスについて-->
-        <div align="center" style="width: 100%; height: 100%; background-color: white;">
-            <img style="width: 100%; height: 100%;" src="image/CapmusBackgroundimage.png">
+        <div class="container">
+            <div align="center" style="width: 100%; height: 100%; color: white;">
+                <img style="width: 100%; height: 100%;" src="image/CapmusBackgroundimage.png">
 
-            <h1>テクノロジーとポップカルチャーが融合した</h1>
-            <h1> 独自の街</h1>
-            <h1 style="font-size: 60px;">「秋葉原」</h1>
-            <p style="height: 60px;">
-            <h2>このキャンパスに集まる生徒は、みんな自由<p>自分の夢や理想を形にしたいと願い<p>この場所に集った仲間は日々挑戦を続ける<p>多彩な仲間や経験豊富な講師と共に歩む<p>桁違いなスクールライフが君を待っている</h2>
-            <p style="height: 20px;">
-            <h1 style="font-size: 70px;">さあ、秋葉原キャンパスへ</h1>
-            <p style="height: 20px;">
+                <h1>テクノロジーとポップカルチャーが融合した</h1>
+                <h1> 独自の街</h1>
+                <h1 style="font-size: 60px;">「秋葉原」</h1>
+                <p style="height: 60px;">
+                <h2>このキャンパスに集まる生徒は、みんな自由<p>自分の夢や理想を形にしたいと願い<p>この場所に集った仲間は日々挑戦を続ける<p>多彩な仲間や経験豊富な講師と共に歩む<p>桁違いなスクールライフが君を待っている</h2>
+                <p style="height: 20px;">
+                <h1 style="font-size: 70px;">さあ、秋葉原キャンパスへ</h1>
+                <p style="height: 20px;">
 
-            <!--Details-->
-            <div>
-                <a class="detailsbutton" href="#header"> <span>Top</span></a>
-                <a class="detailsbutton" href="#work"> <span>Work</span></a>
-                <a class="detailsbutton" href="#blog"> <span>Blog</span></a>
+                <!--Details-->
+                <div>
+                    <a class="detailsbutton" href="#header"> <span>Top</span></a>
+                    <a class="detailsbutton" href="#work"> <span>Work</span></a>
+                    <a class="detailsbutton" href="#blog"> <span>Blog</span></a>
+                </div>
+                <p style="height: 40px;">
+                <h3>Copyright © 2023 N中等部秋葉原キャンパス公式サイト</h3>
+                <p style="height: 20px;">
             </div>
-            <p style="height: 40px;">
-            <h3>Copyright © 2023 N中等部秋葉原キャンパス公式サイト</h3>
-            <p style="height: 20px;">
         </div>
     </div>
 </body>
