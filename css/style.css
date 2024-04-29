@@ -17,6 +17,9 @@
     /*背景画像設定*/
     background-image: url("https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/image/Top.png");
     background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
 }
 
 body {
@@ -72,98 +75,7 @@ a {
 
 /* Phone css */
 
-@media screen and (max-width: 1700px) {
-    #header {
-        /*headerを全画面で見せる*/
-        width: 100%;
-        height: 100vh;
-        position: relative; 
-    }
-    
-    #header:before {
-        /*header の疑似要素に背景画像を指定*/
-        content: "";
-        position: fixed;
-        top: 0;
-        left: -150px;
-        z-index: -1;
-        width: 120%;
-        height: 100vh;
-        /*背景画像設定*/
-        background-image: url("https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/image/Top.png");
-        background-size: cover;
-    }
-}
-
-
-@media screen and (max-width: 1650px) {
-    #header {
-        /*headerを全画面で見せる*/
-        width: 100%;
-        height: 100vh;
-        position: relative; 
-    }
-    
-    #header:before {
-        /*header の疑似要素に背景画像を指定*/
-        content: "";
-        position: fixed;
-        top: 0;
-        left: -150px;
-        z-index: -1;
-        width: 120%;
-        height: 100vh;
-        /*背景画像設定*/
-        background-image: url("https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/image/Top.png");
-        background-size: cover;
-    }
-}
-
-@media screen and (max-width: 1600px) {
-    #header {
-        /*headerを全画面で見せる*/
-        width: 100%;
-        height: 100vh;
-        position: relative; 
-    }
-    
-    #header:before {
-        /*header の疑似要素に背景画像を指定*/
-        content: "";
-        position: fixed;
-        top: 0;
-        left: -150px;
-        z-index: -1;
-        width: 120%;
-        height: 100vh;
-        /*背景画像設定*/
-        background-image: url("https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/image/Top.png");
-        background-size: cover;
-    }
-}
-
 @media screen and (max-width: 1550px) {
-    #header {
-        /*headerを全画面で見せる*/
-        width: 100%;
-        height: 100vh;
-        position: relative; 
-    }
-    
-    #header:before {
-        /*header の疑似要素に背景画像を指定*/
-        content: "";
-        position: fixed;
-        top: 0;
-        left: -150px;
-        z-index: -1;
-        width: 120%;
-        height: 100vh;
-        /*背景画像設定*/
-        background-image: url("https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/image/Top.png");
-        background-size: cover;
-    }
-
     .workicon {
         top: 12%;
         left: 7%;
@@ -191,74 +103,7 @@ a {
     }
 }
 
-@media screen and (max-width: 1500px) {
-    #header {
-        /*headerを全画面で見せる*/
-        width: 100%;
-        height: 100vh;
-        position: relative; 
-    }
-    
-    #header:before {
-        /*header の疑似要素に背景画像を指定*/
-        content: "";
-        position: fixed;
-        top: 0;
-        left: -190px;
-        z-index: -1;
-        width: 120%;
-        height: 100vh;
-        /*背景画像設定*/
-        background-image: url("https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/image/Top.png");
-        background-size: cover;
-    }
-}
-
-@media screen and (max-width: 1350px) {
-    #header {
-        /*headerを全画面で見せる*/
-        width: 100%;
-        height: 100vh;
-        position: relative; 
-    }
-    
-    #header:before {
-        /*header の疑似要素に背景画像を指定*/
-        content: "";
-        position: fixed;
-        top: 0;
-        left: -260px;
-        z-index: -1;
-        width: 125%;
-        height: 100vh;
-        /*背景画像設定*/
-        background-image: url("https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/image/Top.png");
-        background-size: cover;
-    }
-}
-
 @media screen and (max-width: 1200px) {
-    #header {
-        /*headerを全画面で見せる*/
-        width: 100%;
-        height: 100vh;
-        position: relative; 
-    }
-    
-    #header:before {
-        /*header の疑似要素に背景画像を指定*/
-        content: "";
-        position: fixed;
-        top: 0;
-        left: -280px;
-        z-index: -1;
-        width: 125%;
-        height: 100vh;
-        /*背景画像設定*/
-        background-image: url("https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/image/Top.png");
-        background-size: cover;
-    }
-
     .workicon {
         top: 12%;
         left: 9%;
@@ -287,27 +132,6 @@ a {
 }
 
 @media screen and (max-width: 1100px) {
-    #header {
-        /*headerを全画面で見せる*/
-        width: 100%;
-        height: 100vh;
-        position: relative; 
-    }
-    
-    #header:before {
-        /*header の疑似要素に背景画像を指定*/
-        content: "";
-        position: fixed;
-        top: 0;
-        left: -340px;
-        z-index: -1;
-        width: 135%;
-        height: 100vh;
-        /*背景画像設定*/
-        background-image: url("https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/image/Top.png");
-        background-size: cover;
-    }
-
     .workbackgroud {
         width: 100%;
         height: 600px;
@@ -350,7 +174,7 @@ a {
         /*headerを全画面で見せる*/
         width: 100%;
         height: 100vh;
-        position: relative; 
+        position: relative;
     }
     
     #header:before {
@@ -358,61 +182,20 @@ a {
         content: "";
         position: fixed;
         top: 0;
-        left: -420px;
+        left: 0;
         z-index: -1;
-        width: 150%;
-        height: 100vh;
-        /*背景画像設定*/
-        background-image: url("https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/image/Top2.png");
-        background-size: cover;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    #header {
-        /*headerを全画面で見せる*/
         width: 100%;
         height: 100vh;
-        position: relative; 
-    }
-    
-    #header:before {
-        /*header の疑似要素に背景画像を指定*/
-        content: "";
-        position: fixed;
-        top: 0;
-        left: -480px;
-        z-index: -1;
-        width: 160%;
-        height: 100vh;
         /*背景画像設定*/
         background-image: url("https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/image/Top2.png");
         background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: center;
     }
 }
 
 @media screen and (max-width: 800px) {
-    #header {
-        /*headerを全画面で見せる*/
-        width: 100%;
-        height: 100vh;
-        position: relative; 
-    }
-
-    #header:before {
-        /*header の疑似要素に背景画像を指定*/
-        content: "";
-        position: fixed;
-        top: 0;
-        left: -510px;
-        z-index: -1;
-        width: 173%;
-        height: 100vh;
-        /*背景画像設定*/
-        background-image: url("https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/image/Top2.png");
-        background-size: cover;
-    }
-
     .workicon {
         top: 10%;
         left: 11%;
@@ -441,27 +224,6 @@ a {
 }
 
 @media screen and (max-width: 700px) {
-    #header {
-        /*headerを全画面で見せる*/
-        width: 100%;
-        height: 100vh;
-        position: relative; 
-    }
-    
-    #header:before {
-        /*header の疑似要素に背景画像を指定*/
-        content: "";
-        position: fixed;
-        top: 0;
-        left: -570px;
-        z-index: -1;
-        width: 195%;
-        height: 100vh;
-        /*背景画像設定*/
-        background-image: url("https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/image/Top2.png");
-        background-size: cover;
-    }
-
     .workbackgroud {
         width: 100%;
         height: 800px;
@@ -479,7 +241,7 @@ a {
         /*headerを全画面で見せる*/
         width: 100%;
         height: 100vh;
-        position: relative; 
+        position: relative;
     }
     
     #header:before {
@@ -487,13 +249,16 @@ a {
         content: "";
         position: fixed;
         top: 0;
-        left: -630px;
+        left: 0;
         z-index: -1;
-        width: 225%;
+        width: 100%;
         height: 100vh;
         /*背景画像設定*/
         background-image: url("https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/image/Top3.png");
         background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: center;
     }
 
     .workicon {
@@ -523,51 +288,7 @@ a {
     }
 }
 
-@media screen and (max-width: 510px) {
-    #header {
-        /*headerを全画面で見せる*/
-        width: 100%;
-        height: 100vh;
-        position: relative; 
-    }
-    
-    #header:before {
-        /*header の疑似要素に背景画像を指定*/
-        content: "";
-        position: fixed;
-        top: 0;
-        left: -665px;
-        z-index: -1;
-        width: 240%;
-        height: 100vh;
-        /*背景画像設定*/
-        background-image: url("https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/image/Top3.png");
-        background-size: cover;
-    }
-}
-
 @media screen and (max-width: 470px) {
-    #header {
-        /*headerを全画面で見せる*/
-        width: 100%;
-        height: 100vh;
-        position: relative; 
-    }
-    
-    #header:before {
-        /*header の疑似要素に背景画像を指定*/
-        content: "";
-        position: fixed;
-        top: 0;
-        left: -690px;
-        z-index: -1;
-        width: 255%;
-        height: 100vh;
-        /*背景画像設定*/
-        background-image: url("https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/image/Top3.png");
-        background-size: cover;
-    }
-
     .workicon {
         top: 8%;
         left: 15%;
@@ -592,51 +313,5 @@ a {
         top: 8%;
         left: 31%;
         font-size: 25px; 
-    }
-}
-
-@media screen and (max-width: 440px) {
-    #header {
-        /*headerを全画面で見せる*/
-        width: 100%;
-        height: 100vh;
-        position: relative; 
-    }
-    
-    #header:before {
-        /*header の疑似要素に背景画像を指定*/
-        content: "";
-        position: fixed;
-        top: 0;
-        left: -710px;
-        z-index: -1;
-        width: 270%;
-        height: 100vh;
-        /*背景画像設定*/
-        background-image: url("https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/image/Top3.png");
-        background-size: cover;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    #header {
-        /*headerを全画面で見せる*/
-        width: 100%;
-        height: 100vh;
-        position: relative; 
-    }
-    
-    #header:before {
-        /*header の疑似要素に背景画像を指定*/
-        content: "";
-        position: fixed;
-        top: 0;
-        left: -690px;
-        z-index: -1;
-        width: 280%;
-        height: 100vh;
-        /*背景画像設定*/
-        background-image: url("https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/image/Top3.png");
-        background-size: cover;
     }
 }
