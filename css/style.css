@@ -19,62 +19,6 @@
     background-size: cover;
 }
 
-.scrolldown1 {
-    /*描画位置※位置は適宜調整してください*/
-    position: absolute;
-    left: 50%;
-    bottom: 10px;
-    /*全体の高さ*/
-    height: 50px;
-}
-
-/*Scrollテキストの描写*/
-.scrolldown1 span {
-    /*描画位置*/
-    position: absolute;
-    left: -15px;
-    top: -15px;
-    /*テキストの形状*/
-    color: #eee;
-    font-size: 0.7rem;
-    letter-spacing: 0.05em;
-}
-
-/* 線の描写 */
-.scrolldown1::after {
-    content: "";
-    /*描画位置*/
-    position: absolute;
-    top: 0;
-    /*線の形状*/
-    width: 1px;
-    height: 30px;
-    background: #eee;
-    /*線の動き1.4秒かけて動く。永遠にループ*/
-    animation: pathmove 1.4s ease-in-out infinite;
-    opacity: 0;
-}
-
-/*高さ・位置・透過が変化して線が上から下に動く*/
-@keyframes pathmove {
-    0% {
-        height: 0;
-        top: 0;
-        opacity: 0;
-    }
-
-    30% {
-        height: 30px;
-        opacity: 1;
-    }
-
-    100% {
-        height: 0;
-        top: 50px;
-        opacity: 0;
-    }
-}
-
 body {
     padding: 0px;
     margin: 0px;
@@ -86,4 +30,567 @@ img {
 
 a {
     cursor: pointer;
+}
+
+.workbackgroud {
+    width: 100%;
+    height: 100%;
+}
+
+.workicon {
+    top: 10%;
+    left: 5%;
+    width: 200px; 
+    height: 200px;
+}
+
+.worktext {
+    top: 10%; 
+    left: 15%; 
+    font-size: 70px; 
+}
+
+.blogbackground {
+    width: 100%;
+    height: 100%;
+}
+
+.blogicon {
+    top: 10%; 
+    left: 5%;
+    width: 200px;
+    height: 200px;
+}
+
+.blogtext {
+    top: 10%;
+    left: 15%;
+    font-size: 70px; 
+}
+
+
+/* Phone css */
+
+@media screen and (max-width: 1700px) {
+    #header {
+        /*headerを全画面で見せる*/
+        width: 100%;
+        height: 100vh;
+        position: relative; 
+    }
+    
+    #header:before {
+        /*header の疑似要素に背景画像を指定*/
+        content: "";
+        position: fixed;
+        top: 0;
+        left: -300px;
+        z-index: -1;
+        width: 150%;
+        height: 100vh;
+        /*背景画像設定*/
+        background: url("/Users/takahashikaito/WorkSpace/Site/秋葉原キャンパスサイト/image/Top.png");
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 1750px) {
+    #header {
+        /*headerを全画面で見せる*/
+        width: 100%;
+        height: 100vh;
+        position: relative; 
+    }
+    
+    #header:before {
+        /*header の疑似要素に背景画像を指定*/
+        content: "";
+        position: fixed;
+        top: 0;
+        left: -300px;
+        z-index: -1;
+        width: 140%;
+        height: 100vh;
+        /*背景画像設定*/
+        background: url("/Users/takahashikaito/WorkSpace/Site/秋葉原キャンパスサイト/image/Top.png");
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    #header {
+        /*headerを全画面で見せる*/
+        width: 100%;
+        height: 100vh;
+        position: relative; 
+    }
+    
+    #header:before {
+        /*header の疑似要素に背景画像を指定*/
+        content: "";
+        position: fixed;
+        top: 0;
+        left: -220px;
+        z-index: -1;
+        width: 130%;
+        height: 100vh;
+        /*背景画像設定*/
+        background: url("/Users/takahashikaito/WorkSpace/Site/秋葉原キャンパスサイト/image/Top.png");
+        background-size: cover;
+    }
+}
+
+
+@media screen and (max-width: 1650px) {
+    #header {
+        /*headerを全画面で見せる*/
+        width: 100%;
+        height: 100vh;
+        position: relative; 
+    }
+    
+    #header:before {
+        /*header の疑似要素に背景画像を指定*/
+        content: "";
+        position: fixed;
+        top: 0;
+        left: -200px;
+        z-index: -1;
+        width: 130%;
+        height: 100vh;
+        /*背景画像設定*/
+        background: url("/Users/takahashikaito/WorkSpace/Site/秋葉原キャンパスサイト/image/Top.png");
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #header {
+        /*headerを全画面で見せる*/
+        width: 100%;
+        height: 100vh;
+        position: relative; 
+    }
+    
+    #header:before {
+        /*header の疑似要素に背景画像を指定*/
+        content: "";
+        position: fixed;
+        top: 0;
+        left: -200px;
+        z-index: -1;
+        width: 130%;
+        height: 100vh;
+        /*背景画像設定*/
+        background: url("/Users/takahashikaito/WorkSpace/Site/秋葉原キャンパスサイト/image/Top.png");
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    #header {
+        /*headerを全画面で見せる*/
+        width: 100%;
+        height: 100vh;
+        position: relative; 
+    }
+    
+    #header:before {
+        /*header の疑似要素に背景画像を指定*/
+        content: "";
+        position: fixed;
+        top: 0;
+        left: -200px;
+        z-index: -1;
+        width: 130%;
+        height: 100vh;
+        /*背景画像設定*/
+        background: url("/Users/takahashikaito/WorkSpace/Site/秋葉原キャンパスサイト/image/Top.png");
+        background-size: cover;
+    }
+
+    .workicon {
+        top: 12%;
+        left: 7%;
+        width: 180px; 
+        height: 180px;
+    }
+    
+    .worktext {
+        top: 12%; 
+        left: 18%; 
+        font-size: 60px; 
+    }
+
+    .blogicon {
+        top: 12%; 
+        left: 7%;
+        width: 180px;
+        height: 180px;
+    }
+    
+    .blogtext {
+        top: 12%;
+        left: 18%;
+        font-size: 60px; 
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    #header {
+        /*headerを全画面で見せる*/
+        width: 100%;
+        height: 100vh;
+        position: relative; 
+    }
+    
+    #header:before {
+        /*header の疑似要素に背景画像を指定*/
+        content: "";
+        position: fixed;
+        top: 0;
+        left: -170px;
+        z-index: -1;
+        width: 120%;
+        height: 100vh;
+        /*背景画像設定*/
+        background: url("/Users/takahashikaito/WorkSpace/Site/秋葉原キャンパスサイト/image/Top.png");
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .workicon {
+        top: 12%;
+        left: 9%;
+        width: 160px; 
+        height: 160px;
+    }
+    
+    .worktext {
+        top: 12%; 
+        left: 21%; 
+        font-size: 50px; 
+    }
+
+    .blogicon {
+        top: 12%; 
+        left: 9%;
+        width: 160px;
+        height: 160px;
+    }
+    
+    .blogtext {
+        top: 12%;
+        left: 21%;
+        font-size: 50px; 
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #header {
+        /*headerを全画面で見せる*/
+        width: 100%;
+        height: 100vh;
+        position: relative; 
+    }
+    
+    #header:before {
+        /*header の疑似要素に背景画像を指定*/
+        content: "";
+        position: fixed;
+        top: 0;
+        left: -415px;
+        z-index: -1;
+        width: 145%;
+        height: 100vh;
+        /*背景画像設定*/
+        background: url("/Users/takahashikaito/WorkSpace/Site/秋葉原キャンパスサイト/image/Top.png");
+        background-size: cover;
+    }
+
+    .workbackgroud {
+        width: 100%;
+        height: 600px;
+    }
+
+    .workicon {
+        top: 12%;
+        left: 9%;
+        width: 140px; 
+        height: 140px;
+    }
+    
+    .worktext {
+        top: 12%; 
+        left: 23%; 
+        font-size: 45px; 
+    }
+    
+    .blogbackground {
+        width: 100%;
+        height: 600px;
+    }
+
+    .blogicon {
+        top: 12%; 
+        left: 9%;
+        width: 140px;
+        height: 140px;
+    }
+    
+    .blogtext {
+        top: 12%;
+        left: 23%;
+        font-size: 45px; 
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #header {
+        /*headerを全画面で見せる*/
+        width: 100%;
+        height: 100vh;
+        position: relative; 
+    }
+    
+    #header:before {
+        /*header の疑似要素に背景画像を指定*/
+        content: "";
+        position: fixed;
+        top: 0;
+        left: -450px;
+        z-index: -1;
+        width: 200%;
+        height: 100vh;
+        /*背景画像設定*/
+        background: url("/Users/takahashikaito/WorkSpace/Site/秋葉原キャンパスサイト/image/Top2.png");
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #header {
+        /*headerを全画面で見せる*/
+        width: 100%;
+        height: 100vh;
+        position: relative; 
+    }
+    
+    #header:before {
+        /*header の疑似要素に背景画像を指定*/
+        content: "";
+        position: fixed;
+        top: 0;
+        left: -520px;
+        z-index: -1;
+        width: 200%;
+        height: 100vh;
+        /*背景画像設定*/
+        background: url("/Users/takahashikaito/WorkSpace/Site/秋葉原キャンパスサイト/image/Top2.png");
+        background-size: cover;
+    }
+
+    .workicon {
+        top: 10%;
+        left: 11%;
+        width: 130px; 
+        height: 130px;
+    }
+    
+    .worktext {
+        top: 10%; 
+        left: 26%; 
+        font-size: 40px; 
+    }
+
+    .blogicon {
+        top: 10%; 
+        left: 11%;
+        width: 130px;
+        height: 130px;
+    }
+    
+    .blogtext {
+        top: 10%;
+        left: 26%;
+        font-size: 40px; 
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #header {
+        /*headerを全画面で見せる*/
+        width: 100%;
+        height: 100vh;
+        position: relative; 
+    }
+    
+    #header:before {
+        /*header の疑似要素に背景画像を指定*/
+        content: "";
+        position: fixed;
+        top: 0;
+        left: -570px;
+        z-index: -1;
+        width: 200%;
+        height: 100vh;
+        /*背景画像設定*/
+        background: url("/Users/takahashikaito/WorkSpace/Site/秋葉原キャンパスサイト/image/Top2.png");
+        background-size: cover;
+    }
+
+    .workbackgroud {
+        width: 100%;
+        height: 800px;
+    }
+    
+    .blogbackground {
+        width: 100%;
+        height: 800px;
+    }  
+}
+
+
+@media screen and (max-width: 600px) {
+    #header {
+        /*headerを全画面で見せる*/
+        width: 100%;
+        height: 100vh;
+        position: relative; 
+    }
+    
+    #header:before {
+        /*header の疑似要素に背景画像を指定*/
+        content: "";
+        position: fixed;
+        top: 0;
+        left: -660px;
+        z-index: -1;
+        width: 250%;
+        height: 100vh;
+        /*背景画像設定*/
+        background: url("/Users/takahashikaito/WorkSpace/Site/秋葉原キャンパスサイト/image/Top3.png");
+        background-size: cover;
+    }
+
+    .workicon {
+        top: 10%;
+        left: 13%;
+        width: 110px; 
+        height: 110px;
+    }
+    
+    .worktext {
+        top: 10%; 
+        left: 29%; 
+        font-size: 30px; 
+    }
+
+    .blogicon {
+        top: 10%; 
+        left: 13%;
+        width: 110px;
+        height: 110px;
+    }
+    
+    .blogtext {
+        top: 10%;
+        left: 29%;
+        font-size: 30px; 
+    }
+}
+
+@media screen and (max-width: 510px) {
+    #header {
+        /*headerを全画面で見せる*/
+        width: 100%;
+        height: 100vh;
+        position: relative; 
+    }
+    
+    #header:before {
+        /*header の疑似要素に背景画像を指定*/
+        content: "";
+        position: fixed;
+        top: 0;
+        left: -680px;
+        z-index: -1;
+        width: 240%;
+        height: 100vh;
+        /*背景画像設定*/
+        background: url("/Users/takahashikaito/WorkSpace/Site/秋葉原キャンパスサイト/image/Top3.png");
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    #header {
+        /*headerを全画面で見せる*/
+        width: 100%;
+        height: 100vh;
+        position: relative; 
+    }
+    
+    #header:before {
+        /*header の疑似要素に背景画像を指定*/
+        content: "";
+        position: fixed;
+        top: 0;
+        left: -700px;
+        z-index: -1;
+        width: 280%;
+        height: 100vh;
+        /*背景画像設定*/
+        background: url("/Users/takahashikaito/WorkSpace/Site/秋葉原キャンパスサイト/image/Top3.png");
+        background-size: cover;
+    }
+    .workicon {
+        top: 8%;
+        left: 15%;
+        width: 100px; 
+        height: 100px;
+    }
+    
+    .worktext {
+        top: 8%; 
+        left: 31%; 
+        font-size: 25px; 
+    }
+
+    .blogicon {
+        top: 8%; 
+        left: 15%;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .blogtext {
+        top: 8%;
+        left: 31%;
+        font-size: 25px; 
+    }
+}
+
+@media screen and (max-width: 440px) {
+    #header {
+        /*headerを全画面で見せる*/
+        width: 100%;
+        height: 100vh;
+        position: relative; 
+    }
+    
+    #header:before {
+        /*header の疑似要素に背景画像を指定*/
+        content: "";
+        position: fixed;
+        top: 0;
+        left: -720px;
+        z-index: -1;
+        width: 300%;
+        height: 100vh;
+        /*背景画像設定*/
+        background: url("/Users/takahashikaito/WorkSpace/Site/秋葉原キャンパスサイト/image/Top3.png");
+        background-size: cover;
+    }
 }
