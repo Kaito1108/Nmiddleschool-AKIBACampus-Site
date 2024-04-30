@@ -100,3 +100,13 @@
     margin: 0!important;/*文字がずれている場合や*/
     padding: 0!important;/*文字が折り返される場合*/
 }
+
+.imgon div.tooltip-mario-container {
+    position: absolute;/*重ねたい子要素にabsolute*/
+    position: absolute;/*重ねたい子要素にabsolute*/
+    -ms-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+    -webkit-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+    transform: translate(-50%,-50%);/*センター寄せの修正*/
+    margin: 0!important;/*文字がずれている場合や*/
+    padding: 0!important;/*文字が折り返される場合*/
+}
