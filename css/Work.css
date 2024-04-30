@@ -31,7 +31,57 @@
     padding: 0!important;/*文字が折り返される場合*/
 }
 
-.imgon div.card {
+.imgon div.workcard1 {
+    position: absolute;/*重ねたい子要素にabsolute*/
+    position: absolute;/*重ねたい子要素にabsolute*/
+    -ms-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+    -webkit-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+    transform: translate(-50%,-50%);/*センター寄せの修正*/
+    margin: 0!important;/*文字がずれている場合や*/
+    padding: 0!important;/*文字が折り返される場合*/
+}
+
+.imgon div.workcard2 {
+    position: absolute;/*重ねたい子要素にabsolute*/
+    position: absolute;/*重ねたい子要素にabsolute*/
+    -ms-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+    -webkit-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+    transform: translate(-50%,-50%);/*センター寄せの修正*/
+    margin: 0!important;/*文字がずれている場合や*/
+    padding: 0!important;/*文字が折り返される場合*/
+}
+
+.imgon div.workcard3 {
+    position: absolute;/*重ねたい子要素にabsolute*/
+    position: absolute;/*重ねたい子要素にabsolute*/
+    -ms-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+    -webkit-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+    transform: translate(-50%,-50%);/*センター寄せの修正*/
+    margin: 0!important;/*文字がずれている場合や*/
+    padding: 0!important;/*文字が折り返される場合*/
+}
+
+.imgon div.blogcard1 {
+    position: absolute;/*重ねたい子要素にabsolute*/
+    position: absolute;/*重ねたい子要素にabsolute*/
+    -ms-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+    -webkit-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+    transform: translate(-50%,-50%);/*センター寄せの修正*/
+    margin: 0!important;/*文字がずれている場合や*/
+    padding: 0!important;/*文字が折り返される場合*/
+}
+
+.imgon div.blogcard2 {
+    position: absolute;/*重ねたい子要素にabsolute*/
+    position: absolute;/*重ねたい子要素にabsolute*/
+    -ms-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+    -webkit-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+    transform: translate(-50%,-50%);/*センター寄せの修正*/
+    margin: 0!important;/*文字がずれている場合や*/
+    padding: 0!important;/*文字が折り返される場合*/
+}
+
+.imgon div.blogcard3 {
     position: absolute;/*重ねたい子要素にabsolute*/
     position: absolute;/*重ねたい子要素にabsolute*/
     -ms-transform: translate(-50%,-50%);/*ベンダープレフィックス*/

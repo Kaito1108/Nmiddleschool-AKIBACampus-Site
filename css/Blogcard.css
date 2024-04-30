@@ -11,7 +11,7 @@ blogcard {
 }
 
 @media (prefers-color-scheme: dark) {
-    .card {
+    .blogcard1 {
         --background: #3c4043;
         --cardShadow: rgba(0, 0, 0, .28);
         --cardShadowHover: rgba(0, 0, 0, .16);
@@ -21,7 +21,31 @@ blogcard {
         --textColor: #e9eaee;
         --linkColor: #8ab4f8;
         top:40%; 
-        left: 20%; 
+        left: 25%; 
+    }
+    .blogcard2 {
+        --background: #3c4043;
+        --cardShadow: rgba(0, 0, 0, .28);
+        --cardShadowHover: rgba(0, 0, 0, .16);
+        --cardShadowActive: rgba(0, 0, 0, .55);
+        --cardBorder: #202125;
+        --cardBorderActive: #8ab4f8;
+        --textColor: #e9eaee;
+        --linkColor: #8ab4f8;
+        top:40%; 
+        left: 45%; 
+    }
+    .blogcard3 {
+        --background: #3c4043;
+        --cardShadow: rgba(0, 0, 0, .28);
+        --cardShadowHover: rgba(0, 0, 0, .16);
+        --cardShadowActive: rgba(0, 0, 0, .55);
+        --cardBorder: #202125;
+        --cardBorderActive: #8ab4f8;
+        --textColor: #e9eaee;
+        --linkColor: #8ab4f8;
+        top:40%; 
+        left: 65%; 
     }
 }
 
@@ -104,7 +128,7 @@ blogcard {
 }
 
 @media screen and (max-width: 1600px) {
-    .card {
+    .blogcard1 {
         --background: #3c4043;
         --cardShadow: rgba(0, 0, 0, .28);
         --cardShadowHover: rgba(0, 0, 0, .16);
@@ -113,13 +137,37 @@ blogcard {
         --cardBorderActive: #8ab4f8;
         --textColor: #e9eaee;
         --linkColor: #8ab4f8;
-        top: 40%; 
-        left: 20%; 
+        top:40%; 
+        left: 30%; 
     }
-
+    .blogcard2 {
+        --background: #3c4043;
+        --cardShadow: rgba(0, 0, 0, .28);
+        --cardShadowHover: rgba(0, 0, 0, .16);
+        --cardShadowActive: rgba(0, 0, 0, .55);
+        --cardBorder: #202125;
+        --cardBorderActive: #8ab4f8;
+        --textColor: #e9eaee;
+        --linkColor: #8ab4f8;
+        top:40%; 
+        left: 50%; 
+    }
+    .blogcard3 {
+        --background: #3c4043;
+        --cardShadow: rgba(0, 0, 0, .28);
+        --cardShadowHover: rgba(0, 0, 0, .16);
+        --cardShadowActive: rgba(0, 0, 0, .55);
+        --cardBorder: #202125;
+        --cardBorderActive: #8ab4f8;
+        --textColor: #e9eaee;
+        --linkColor: #8ab4f8;
+        top:40%; 
+        left: 70%; 
+    }
+    
     .blogcard {
-        width: 230px;
-        height: 330px;
+        width: 210px;
+        height: 300px;
         aspect-ratio: 2/3;
         background: var(--background);
         color: var(--textColor);
@@ -150,7 +198,7 @@ blogcard {
 }
 
 @media screen and (max-width: 1400px) {
-    .card {
+    .blogcard1 {
         --background: #3c4043;
         --cardShadow: rgba(0, 0, 0, .28);
         --cardShadowHover: rgba(0, 0, 0, .16);
@@ -159,13 +207,37 @@ blogcard {
         --cardBorderActive: #8ab4f8;
         --textColor: #e9eaee;
         --linkColor: #8ab4f8;
-        top: 40%; 
+        top:45%; 
         left: 25%; 
+    }
+    .blogcard2 {
+        --background: #3c4043;
+        --cardShadow: rgba(0, 0, 0, .28);
+        --cardShadowHover: rgba(0, 0, 0, .16);
+        --cardShadowActive: rgba(0, 0, 0, .55);
+        --cardBorder: #202125;
+        --cardBorderActive: #8ab4f8;
+        --textColor: #e9eaee;
+        --linkColor: #8ab4f8;
+        top:45%; 
+        left: 50%; 
+    }
+    .blogcard3 {
+        --background: #3c4043;
+        --cardShadow: rgba(0, 0, 0, .28);
+        --cardShadowHover: rgba(0, 0, 0, .16);
+        --cardShadowActive: rgba(0, 0, 0, .55);
+        --cardBorder: #202125;
+        --cardBorderActive: #8ab4f8;
+        --textColor: #e9eaee;
+        --linkColor: #8ab4f8;
+        top:45%; 
+        left: 75%; 
     }
 
     .blogcard {
-        width: 200px;
-        height: 300px;
+        width: 190px;
+        height: 270px;
         aspect-ratio: 2/3;
         background: var(--background);
         color: var(--textColor);
@@ -196,7 +268,7 @@ blogcard {
 }
 
 @media screen and (max-width: 1200px) {
-    .card {
+    .blogcard1 {
         --background: #3c4043;
         --cardShadow: rgba(0, 0, 0, .28);
         --cardShadowHover: rgba(0, 0, 0, .16);
@@ -205,13 +277,37 @@ blogcard {
         --cardBorderActive: #8ab4f8;
         --textColor: #e9eaee;
         --linkColor: #8ab4f8;
-        top: 45%; 
+        top:50%; 
         left: 25%; 
+    }
+    .blogcard2 {
+        --background: #3c4043;
+        --cardShadow: rgba(0, 0, 0, .28);
+        --cardShadowHover: rgba(0, 0, 0, .16);
+        --cardShadowActive: rgba(0, 0, 0, .55);
+        --cardBorder: #202125;
+        --cardBorderActive: #8ab4f8;
+        --textColor: #e9eaee;
+        --linkColor: #8ab4f8;
+        top:50%; 
+        left: 50%; 
+    }
+    .blogcard3 {
+        --background: #3c4043;
+        --cardShadow: rgba(0, 0, 0, .28);
+        --cardShadowHover: rgba(0, 0, 0, .16);
+        --cardShadowActive: rgba(0, 0, 0, .55);
+        --cardBorder: #202125;
+        --cardBorderActive: #8ab4f8;
+        --textColor: #e9eaee;
+        --linkColor: #8ab4f8;
+        top:50%; 
+        left: 75%; 
     }
 
     .blogcard {
-        width: 200px;
-        height: 290px;
+        width: 170px;
+        height: 250px;
         aspect-ratio: 2/3;
         background: var(--background);
         color: var(--textColor);
@@ -225,24 +321,24 @@ blogcard {
 
     .blogcard>.title {
         margin-top: 1.6em;
-        font-size: 14px;
+        font-size: 11px;
         font-weight: bold;
     }
     
     .blogcard>.description {
         line-height: 2em;
-        font-size: 11px;
+        font-size: 10px;
         min-height: 6em;
     }
     
     .blogcard>.icon {
-        font-size: 2.8em;
+        font-size: 2.5em;
         margin-bottom: .2em;
     }
 }
 
 @media screen and (max-width: 1000px) {
-    .card {
+    .blogcard1 {
         --background: #3c4043;
         --cardShadow: rgba(0, 0, 0, .28);
         --cardShadowHover: rgba(0, 0, 0, .16);
@@ -251,13 +347,37 @@ blogcard {
         --cardBorderActive: #8ab4f8;
         --textColor: #e9eaee;
         --linkColor: #8ab4f8;
-        top: 50%; 
-        left: 28%; 
+        top:50%; 
+        left: 25%; 
+    }
+    .blogcard2 {
+        --background: #3c4043;
+        --cardShadow: rgba(0, 0, 0, .28);
+        --cardShadowHover: rgba(0, 0, 0, .16);
+        --cardShadowActive: rgba(0, 0, 0, .55);
+        --cardBorder: #202125;
+        --cardBorderActive: #8ab4f8;
+        --textColor: #e9eaee;
+        --linkColor: #8ab4f8;
+        top:50%; 
+        left: 50%; 
+    }
+    .blogcard3 {
+        --background: #3c4043;
+        --cardShadow: rgba(0, 0, 0, .28);
+        --cardShadowHover: rgba(0, 0, 0, .16);
+        --cardShadowActive: rgba(0, 0, 0, .55);
+        --cardBorder: #202125;
+        --cardBorderActive: #8ab4f8;
+        --textColor: #e9eaee;
+        --linkColor: #8ab4f8;
+        top:50%; 
+        left: 75%; 
     }
 
     .blogcard {
-        width: 190px;
-        height: 270px;
+        width: 140px;
+        height: 240px;
         aspect-ratio: 2/3;
         background: var(--background);
         color: var(--textColor);
@@ -271,7 +391,7 @@ blogcard {
 
     .blogcard>.title {
         margin-top: 1.6em;
-        font-size: 12px;
+        font-size: 10px;
         font-weight: bold;
     }
     
@@ -288,7 +408,7 @@ blogcard {
 }
 
 @media screen and (max-width: 800px) {
-    .card {
+    .blogcard1 {
         --background: #3c4043;
         --cardShadow: rgba(0, 0, 0, .28);
         --cardShadowHover: rgba(0, 0, 0, .16);
@@ -297,13 +417,37 @@ blogcard {
         --cardBorderActive: #8ab4f8;
         --textColor: #e9eaee;
         --linkColor: #8ab4f8;
-        top: 50%; 
-        left: 33%; 
+        top:50%; 
+        left: 25%; 
+    }
+    .blogcard2 {
+        --background: #3c4043;
+        --cardShadow: rgba(0, 0, 0, .28);
+        --cardShadowHover: rgba(0, 0, 0, .16);
+        --cardShadowActive: rgba(0, 0, 0, .55);
+        --cardBorder: #202125;
+        --cardBorderActive: #8ab4f8;
+        --textColor: #e9eaee;
+        --linkColor: #8ab4f8;
+        top:50%; 
+        left: 55%; 
+    }
+    .blogcard3 {
+        --background: #3c4043;
+        --cardShadow: rgba(0, 0, 0, .28);
+        --cardShadowHover: rgba(0, 0, 0, .16);
+        --cardShadowActive: rgba(0, 0, 0, .55);
+        --cardBorder: #202125;
+        --cardBorderActive: #8ab4f8;
+        --textColor: #e9eaee;
+        --linkColor: #8ab4f8;
+        top:50%; 
+        left: 85%; 
     }
 
     .blogcard {
-        width: 190px;
-        height: 250px;
+        width: 120px;
+        height: 220px;
         aspect-ratio: 2/3;
         background: var(--background);
         color: var(--textColor);
@@ -317,7 +461,7 @@ blogcard {
 
     .blogcard>.title {
         margin-top: 1.6em;
-        font-size: 11px;
+        font-size: 10px;
         font-weight: bold;
     }
     
@@ -334,7 +478,7 @@ blogcard {
 }
 
 @media screen and (max-width: 700px) {
-    .card {
+    .blogcard1 {
         --background: #3c4043;
         --cardShadow: rgba(0, 0, 0, .28);
         --cardShadowHover: rgba(0, 0, 0, .16);
@@ -343,13 +487,37 @@ blogcard {
         --cardBorderActive: #8ab4f8;
         --textColor: #e9eaee;
         --linkColor: #8ab4f8;
-        top: 40%; 
-        left: 33%; 
+        top:40%; 
+        left: 27%; 
+    }
+    .blogcard2 {
+        --background: #3c4043;
+        --cardShadow: rgba(0, 0, 0, .28);
+        --cardShadowHover: rgba(0, 0, 0, .16);
+        --cardShadowActive: rgba(0, 0, 0, .55);
+        --cardBorder: #202125;
+        --cardBorderActive: #8ab4f8;
+        --textColor: #e9eaee;
+        --linkColor: #8ab4f8;
+        top:40%; 
+        left: 55%; 
+    }
+    .blogcard3 {
+        --background: #3c4043;
+        --cardShadow: rgba(0, 0, 0, .28);
+        --cardShadowHover: rgba(0, 0, 0, .16);
+        --cardShadowActive: rgba(0, 0, 0, .55);
+        --cardBorder: #202125;
+        --cardBorderActive: #8ab4f8;
+        --textColor: #e9eaee;
+        --linkColor: #8ab4f8;
+        top:40%; 
+        left: 83%; 
     }
 
     .blogcard {
-        width: 190px;
-        height: 250px;
+        width: 100px;
+        height: 200px;
         aspect-ratio: 2/3;
         background: var(--background);
         color: var(--textColor);
@@ -363,24 +531,24 @@ blogcard {
 
     .blogcard>.title {
         margin-top: 1.6em;
-        font-size: 11px;
+        font-size: 9px;
         font-weight: bold;
     }
     
     .blogcard>.description {
         line-height: 2em;
-        font-size: 9px;
+        font-size: 8px;
         min-height: 6em;
     }
     
     .blogcard>.icon {
-        font-size: 2.5em;
+        font-size: 2.2em;
         margin-bottom: .2em;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .card {
+    .blogcard1 {
         --background: #3c4043;
         --cardShadow: rgba(0, 0, 0, .28);
         --cardShadowHover: rgba(0, 0, 0, .16);
@@ -389,13 +557,37 @@ blogcard {
         --cardBorderActive: #8ab4f8;
         --textColor: #e9eaee;
         --linkColor: #8ab4f8;
-        top: 40%; 
-        left: 36%; 
+        top:40%; 
+        left: 25%; 
+    }
+    .blogcard2 {
+        --background: #3c4043;
+        --cardShadow: rgba(0, 0, 0, .28);
+        --cardShadowHover: rgba(0, 0, 0, .16);
+        --cardShadowActive: rgba(0, 0, 0, .55);
+        --cardBorder: #202125;
+        --cardBorderActive: #8ab4f8;
+        --textColor: #e9eaee;
+        --linkColor: #8ab4f8;
+        top:40%; 
+        left: 54%; 
+    }
+    .blogcard3 {
+        --background: #3c4043;
+        --cardShadow: rgba(0, 0, 0, .28);
+        --cardShadowHover: rgba(0, 0, 0, .16);
+        --cardShadowActive: rgba(0, 0, 0, .55);
+        --cardBorder: #202125;
+        --cardBorderActive: #8ab4f8;
+        --textColor: #e9eaee;
+        --linkColor: #8ab4f8;
+        top:40%; 
+        left: 83%; 
     }
 
     .blogcard {
-        width: 190px;
-        height: 250px;
+        width: 95px;
+        height: 220px;
         aspect-ratio: 2/3;
         background: var(--background);
         color: var(--textColor);
@@ -409,24 +601,24 @@ blogcard {
 
     .blogcard>.title {
         margin-top: 1.6em;
-        font-size: 11px;
+        font-size: 9.5px;
         font-weight: bold;
     }
     
     .blogcard>.description {
         line-height: 2em;
-        font-size: 9px;
+        font-size: 7px;
         min-height: 6em;
     }
     
     .blogcard>.icon {
-        font-size: 2.5em;
+        font-size: 2.2em;
         margin-bottom: .2em;
     }
 }
 
-@media screen and (max-width: 600px) {
-    .card {
+@media screen and (max-width: 520px) {
+    .blogcard1 {
         --background: #3c4043;
         --cardShadow: rgba(0, 0, 0, .28);
         --cardShadowHover: rgba(0, 0, 0, .16);
@@ -435,13 +627,37 @@ blogcard {
         --cardBorderActive: #8ab4f8;
         --textColor: #e9eaee;
         --linkColor: #8ab4f8;
-        top: 40%; 
-        left: 40%; 
+        top:40%; 
+        left: 25%; 
+    }
+    .blogcard2 {
+        --background: #3c4043;
+        --cardShadow: rgba(0, 0, 0, .28);
+        --cardShadowHover: rgba(0, 0, 0, .16);
+        --cardShadowActive: rgba(0, 0, 0, .55);
+        --cardBorder: #202125;
+        --cardBorderActive: #8ab4f8;
+        --textColor: #e9eaee;
+        --linkColor: #8ab4f8;
+        top:40%; 
+        left: 54%; 
+    }
+    .blogcard3 {
+        --background: #3c4043;
+        --cardShadow: rgba(0, 0, 0, .28);
+        --cardShadowHover: rgba(0, 0, 0, .16);
+        --cardShadowActive: rgba(0, 0, 0, .55);
+        --cardBorder: #202125;
+        --cardBorderActive: #8ab4f8;
+        --textColor: #e9eaee;
+        --linkColor: #8ab4f8;
+        top:40%; 
+        left: 83%; 
     }
 
     .blogcard {
-        width: 190px;
-        height: 250px;
+        width: 75px;
+        height: 220px;
         aspect-ratio: 2/3;
         background: var(--background);
         color: var(--textColor);
@@ -455,18 +671,88 @@ blogcard {
 
     .blogcard>.title {
         margin-top: 1.6em;
-        font-size: 11px;
+        font-size: 7.5px;
         font-weight: bold;
     }
     
     .blogcard>.description {
         line-height: 2em;
-        font-size: 9px;
+        font-size: 8px;
         min-height: 6em;
     }
     
     .blogcard>.icon {
-        font-size: 2.5em;
+        font-size: 1.8em;
+        margin-bottom: .2em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .blogcard1 {
+        --background: #3c4043;
+        --cardShadow: rgba(0, 0, 0, .28);
+        --cardShadowHover: rgba(0, 0, 0, .16);
+        --cardShadowActive: rgba(0, 0, 0, .55);
+        --cardBorder: #202125;
+        --cardBorderActive: #8ab4f8;
+        --textColor: #e9eaee;
+        --linkColor: #8ab4f8;
+        top:40%; 
+        left: 25%; 
+    }
+    .blogcard2 {
+        --background: #3c4043;
+        --cardShadow: rgba(0, 0, 0, .28);
+        --cardShadowHover: rgba(0, 0, 0, .16);
+        --cardShadowActive: rgba(0, 0, 0, .55);
+        --cardBorder: #202125;
+        --cardBorderActive: #8ab4f8;
+        --textColor: #e9eaee;
+        --linkColor: #8ab4f8;
+        top:40%; 
+        left: 54%; 
+    }
+    .blogcard3 {
+        --background: #3c4043;
+        --cardShadow: rgba(0, 0, 0, .28);
+        --cardShadowHover: rgba(0, 0, 0, .16);
+        --cardShadowActive: rgba(0, 0, 0, .55);
+        --cardBorder: #202125;
+        --cardBorderActive: #8ab4f8;
+        --textColor: #e9eaee;
+        --linkColor: #8ab4f8;
+        top:40%; 
+        left: 83%; 
+    }
+
+    .blogcard {
+        width: 60px;
+        height: 220px;
+        aspect-ratio: 2/3;
+        background: var(--background);
+        color: var(--textColor);
+        border: 1px solid var(--cardBorder);
+        padding: 25px;
+        box-shadow: 8px 8px 0 var(--cardShadow);
+        transition: box-shadow .5s, transform .5s;
+        border-radius: 8px;
+        display: inline-block;
+    }
+
+    .blogcard>.title {
+        margin-top: 1.6em;
+        font-size: 7.5px;
+        font-weight: bold;
+    }
+    
+    .blogcard>.description {
+        line-height: 2em;
+        font-size: 6px;
+        min-height: 6em;
+    }
+    
+    .blogcard>.icon {
+        font-size: 1.8em;
         margin-bottom: .2em;
     }
 }
