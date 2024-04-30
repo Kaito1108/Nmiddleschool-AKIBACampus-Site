@@ -7,7 +7,6 @@ blogcard {
     --cardBorderActive: #1a73e8;
     --textColor: #202125;
     --linkColor: #1967d2;
-    --ratingColor: #faab00;
 }
 
 @media (prefers-color-scheme: dark) {
