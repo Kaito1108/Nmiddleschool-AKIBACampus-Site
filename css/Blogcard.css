@@ -740,13 +740,13 @@ blogcard {
 
     .blogcard>.title {
         margin-top: 1.6em;
-        font-size: 7.5px;
+        font-size: 9px;
         font-weight: bold;
     }
     
     .blogcard>.description {
         line-height: 2em;
-        font-size: 6px;
+        font-size: 8px;
         min-height: 6em;
     }
     
