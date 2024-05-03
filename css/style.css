@@ -41,7 +41,7 @@ ul {
 }
 
 li {
-    padding-left: 10px;
+    padding: 10px;
     padding-top: 13px;
     float: left;
 }
@@ -62,14 +62,14 @@ a {
 .workicon {
     top: 10%;
     left: 5%;
-    width: 200px; 
+    width: 200px;
     height: 200px;
 }
 
 .worktext {
-    top: 10%; 
-    left: 15%; 
-    font-size: 70px; 
+    top: 10%;
+    left: 15%;
+    font-size: 70px;
 }
 
 .blogbackground {
@@ -78,7 +78,7 @@ a {
 }
 
 .blogicon {
-    top: 10%; 
+    top: 10%;
     left: 5%;
     width: 200px;
     height: 200px;
@@ -87,7 +87,7 @@ a {
 .blogtext {
     top: 10%;
     left: 15%;
-    font-size: 70px; 
+    font-size: 70px;
 }
 
 
@@ -104,9 +104,9 @@ a {
         position: fixed;
         z-index: 2;
     }
-    
+
     li {
-        padding-left: 1px;
+        padding: 5px;
         padding-top: 14px;
         float: left;
     }
@@ -116,27 +116,27 @@ a {
     .workicon {
         top: 12%;
         left: 7%;
-        width: 180px; 
+        width: 180px;
         height: 180px;
     }
-    
+
     .worktext {
-        top: 12%; 
-        left: 18%; 
-        font-size: 60px; 
+        top: 12%;
+        left: 18%;
+        font-size: 60px;
     }
 
     .blogicon {
-        top: 12%; 
+        top: 12%;
         left: 7%;
         width: 180px;
         height: 180px;
     }
-    
+
     .blogtext {
         top: 12%;
         left: 18%;
-        font-size: 60px; 
+        font-size: 60px;
     }
 }
 
@@ -144,27 +144,27 @@ a {
     .workicon {
         top: 12%;
         left: 9%;
-        width: 160px; 
+        width: 160px;
         height: 160px;
     }
-    
+
     .worktext {
-        top: 12%; 
-        left: 21%; 
-        font-size: 50px; 
+        top: 12%;
+        left: 21%;
+        font-size: 50px;
     }
 
     .blogicon {
-        top: 12%; 
+        top: 12%;
         left: 9%;
         width: 160px;
         height: 160px;
     }
-    
+
     .blogtext {
         top: 12%;
         left: 21%;
-        font-size: 50px; 
+        font-size: 50px;
     }
 }
 
@@ -180,9 +180,9 @@ a {
         position: fixed;
         z-index: 2;
     }
-    
+
     li {
-        padding-left: 1px;
+        padding: 1px;
         padding-top: 14px;
         float: left;
     }
@@ -195,32 +195,32 @@ a {
     .workicon {
         top: 12%;
         left: 9%;
-        width: 140px; 
+        width: 140px;
         height: 140px;
     }
-    
+
     .worktext {
-        top: 12%; 
-        left: 23%; 
-        font-size: 45px; 
+        top: 12%;
+        left: 23%;
+        font-size: 45px;
     }
-    
+
     .blogbackground {
         width: 100%;
         height: 600px;
     }
 
     .blogicon {
-        top: 12%; 
+        top: 12%;
         left: 9%;
         width: 140px;
         height: 140px;
     }
-    
+
     .blogtext {
         top: 12%;
         left: 23%;
-        font-size: 45px; 
+        font-size: 45px;
     }
 }
 
@@ -236,20 +236,20 @@ a {
         position: fixed;
         z-index: 2;
     }
-    
+
     li {
-        padding-left: 1px;
+        padding: 1px;
         padding-top: 14px;
         float: left;
     }
-    
+
     #header {
         /*headerを全画面で見せる*/
         width: 100%;
         height: 100vh;
         position: relative;
     }
-    
+
     #header:before {
         /*header の疑似要素に背景画像を指定*/
         content: "";
@@ -272,27 +272,27 @@ a {
     .workicon {
         top: 10%;
         left: 11%;
-        width: 130px; 
+        width: 130px;
         height: 130px;
     }
-    
+
     .worktext {
-        top: 10%; 
-        left: 26%; 
-        font-size: 40px; 
+        top: 10%;
+        left: 26%;
+        font-size: 40px;
     }
 
     .blogicon {
-        top: 10%; 
+        top: 10%;
         left: 11%;
         width: 130px;
         height: 130px;
     }
-    
+
     .blogtext {
         top: 10%;
         left: 26%;
-        font-size: 40px; 
+        font-size: 40px;
     }
 }
 
@@ -301,11 +301,11 @@ a {
         width: 100%;
         height: 800px;
     }
-    
+
     .blogbackground {
         width: 100%;
         height: 800px;
-    }  
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -318,34 +318,30 @@ a {
         list-style: none;
         overflow: hidden;
         position: fixed;
-        z-index: 2;
+        z-index: 1;
     }
-    
+
     li {
-        padding-left: 1px;
+        padding: 1px;
         padding-top: 14px;
         float: left;
     }
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 620px) {
     ul {
-        width: 35%;
-        height: 200px;
-        left: 60%;
-        border-top-right-radius: 0px;
-        border-bottom-right-radius: 0px;
-        border-top-left-radius: 30px;
-        border-bottom-left-radius: 30px;
+        width: 100%;
+        height: 70px;
+        margin-top: 0px;
         background-color: white;
         list-style: none;
         overflow: hidden;
         position: fixed;
         z-index: 2;
     }
-    
+
     li {
-        padding-left: 20px;
+        padding: 6px;
         padding-top: 14px;
         float: left;
     }
@@ -358,7 +354,7 @@ a {
         height: 100vh;
         position: relative;
     }
-    
+
     #header:before {
         /*header の疑似要素に背景画像を指定*/
         content: "";
@@ -379,27 +375,27 @@ a {
     .workicon {
         top: 10%;
         left: 13%;
-        width: 110px; 
+        width: 110px;
         height: 110px;
     }
-    
+
     .worktext {
-        top: 10%; 
-        left: 29%; 
-        font-size: 30px; 
+        top: 10%;
+        left: 29%;
+        font-size: 30px;
     }
 
     .blogicon {
-        top: 10%; 
+        top: 10%;
         left: 13%;
         width: 110px;
         height: 110px;
     }
-    
+
     .blogtext {
         top: 10%;
         left: 29%;
-        font-size: 30px; 
+        font-size: 30px;
     }
 }
 
@@ -407,26 +403,26 @@ a {
     .workicon {
         top: 8%;
         left: 15%;
-        width: 100px; 
+        width: 100px;
         height: 100px;
     }
-    
+
     .worktext {
-        top: 8%; 
-        left: 31%; 
-        font-size: 25px; 
+        top: 8%;
+        left: 31%;
+        font-size: 25px;
     }
 
     .blogicon {
-        top: 8%; 
+        top: 8%;
         left: 15%;
         width: 100px;
         height: 100px;
     }
-    
+
     .blogtext {
         top: 8%;
         left: 31%;
-        font-size: 25px; 
+        font-size: 25px;
     }
 }

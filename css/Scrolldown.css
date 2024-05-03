@@ -1,4 +1,4 @@
-.scrolldown1 {
+.scrolldown {
     /*描画位置※位置は適宜調整してください*/
     position: absolute;
     left: 50%;
@@ -8,7 +8,7 @@
 }
 
 /*Scrollテキストの描写*/
-.scrolldown1 span {
+.scrolldown span {
     /*描画位置*/
     position: absolute;
     left: -15px;
@@ -20,7 +20,7 @@
 }
 
 /* 線の描写 */
-.scrolldown1::after {
+.scrolldown::after {
     content: "";
     /*描画位置*/
     position: absolute;
