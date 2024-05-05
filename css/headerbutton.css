@@ -99,7 +99,7 @@
 
 @media screen and (max-width: 1000px) {
     .headbtn {
-        width: 100px;
+        width: 90px;
         height: 45px;
     }
 
@@ -108,14 +108,24 @@
     }
 }
 
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
     .headbtn {
-        width: 90px;
-        height: 45px;
+        width: 80px;
+        height: 40px;
     }
 
     .text {
-        font-size: 15px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .headbtn {
+        width: 70px;
+        height: 40px;
+    }
+
+    .text {
+        font-size: 10px;
     }
 }
