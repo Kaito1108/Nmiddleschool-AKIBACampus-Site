@@ -1,8 +1,4 @@
-.imgon {
-    position: relative;
-}
-
-.imgon h1 {
+.imgon img.blogicon {
     position: absolute;/*重ねたい子要素にabsolute*/
     -ms-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
     -webkit-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
@@ -11,7 +7,7 @@
     padding: 0!important;/*文字が折り返される場合*/
 }
 
-.imgon img.workicon {
+.imgon div.blogcard1 {
     position: absolute;/*重ねたい子要素にabsolute*/
     -ms-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
     -webkit-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
@@ -20,7 +16,7 @@
     padding: 0!important;/*文字が折り返される場合*/
 }
 
-.imgon div.workcard1 {
+.imgon div.blogcard2 {
     position: absolute;/*重ねたい子要素にabsolute*/
     -ms-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
     -webkit-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
@@ -29,34 +25,7 @@
     padding: 0!important;/*文字が折り返される場合*/
 }
 
-.imgon div.workcard2 {
-    position: absolute;/*重ねたい子要素にabsolute*/
-    -ms-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
-    -webkit-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
-    transform: translate(-50%,-50%);/*センター寄せの修正*/
-    margin: 0!important;/*文字がずれている場合や*/
-    padding: 0!important;/*文字が折り返される場合*/
-}
-
-.imgon div.workcard3 {
-    position: absolute;/*重ねたい子要素にabsolute*/
-    -ms-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
-    -webkit-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
-    transform: translate(-50%,-50%);/*センター寄せの修正*/
-    margin: 0!important;/*文字がずれている場合や*/
-    padding: 0!important;/*文字が折り返される場合*/
-}
-
-.imgon button {
-    position: absolute;/*重ねたい子要素にabsolute*/
-    -ms-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
-    -webkit-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
-    transform: translate(-50%,-50%);/*センター寄せの修正*/
-    margin: 0!important;/*文字がずれている場合や*/
-    padding: 0!important;/*文字が折り返される場合*/
-}
-
-.imgon div.work-grid-container {
+.imgon div.blogcard3 {
     position: absolute;/*重ねたい子要素にabsolute*/
     -ms-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
     -webkit-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
