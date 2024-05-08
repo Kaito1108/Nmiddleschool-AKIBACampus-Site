@@ -1,11 +1,12 @@
 body {
     margin: 0px;
+
 }
 
 ul {
     height: 70px;
     margin-top: 0px;
-    background-color: antiquewhite;;
+    background-color: antiquewhite;
     list-style: none;
     overflow: hidden;
     z-index: 2;
