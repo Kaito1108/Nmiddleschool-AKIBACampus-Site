@@ -5,7 +5,6 @@ ul {
     background-color: white;
     list-style: none;
     overflow: hidden;
-    position: fixed;
     z-index: 2;
 }
 
