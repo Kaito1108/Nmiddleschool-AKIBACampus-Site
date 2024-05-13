@@ -697,7 +697,7 @@ blogcard {
         --textColor: #e9eaee;
         --linkColor: #8ab4f8;
         top:40%; 
-        left: 25%; 
+        left: 30%; 
     }
     .blogcard2 {
         --background: #3c4043;
@@ -709,23 +709,14 @@ blogcard {
         --textColor: #e9eaee;
         --linkColor: #8ab4f8;
         top:40%; 
-        left: 54%; 
+        left: 74%; 
     }
     .blogcard3 {
-        --background: #3c4043;
-        --cardShadow: rgba(0, 0, 0, .28);
-        --cardShadowHover: rgba(0, 0, 0, .16);
-        --cardShadowActive: rgba(0, 0, 0, .55);
-        --cardBorder: #202125;
-        --cardBorderActive: #8ab4f8;
-        --textColor: #e9eaee;
-        --linkColor: #8ab4f8;
-        top:40%; 
-        left: 83%; 
+        display: none;
     }
 
     .blogcard {
-        width: 60px;
+        width: 80px;
         height: 220px;
         aspect-ratio: 2/3;
         background: var(--background);
