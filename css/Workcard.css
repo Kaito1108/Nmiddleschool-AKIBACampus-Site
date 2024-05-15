@@ -55,6 +55,11 @@
     border-radius: 50%;
 }
 
+img {
+    width: 220px; 
+    height: 130px;
+} 
+
 .red {
     background-color: #ff605c;
 }
