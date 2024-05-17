@@ -62,6 +62,13 @@ li {
     transform: scale(1.2);
 }
 
+.card-continer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
 @media screen and (max-width: 1600px) {
     .headbtn {
         width: 110px;
