@@ -5,6 +5,7 @@
     background-color: #011522;
     border-radius: 8px;
     z-index: 1;
+    cursor: pointer;
     margin: 10px;
 }
 
