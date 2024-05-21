@@ -1,18 +1,18 @@
 window.onload = function() {
     // 作品の画像
     const images = [
-        'https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/AllWork/image/Angeltyan.png',
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/AnimalHotSpringirast.png",
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/GandomBall.png",
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/hotroom.png",
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/JumpGandom.png",
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/Konan.png",
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/redboxvspurplebox.png",
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/Reimu.png",
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/skytower.png",
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/SummerPokemon.png",
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/taxcalculatorapp.png",
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/tyadesu.png"
+        'https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/AllWork/image/Angeltyan.png',
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/AnimalHotSpringirast.png",
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/GandomBall.png",
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/hotroom.png",
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/JumpGandom.png",
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/Konan.png",
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/redboxvspurplebox.png",
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/Reimu.png",
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/skytower.png",
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/SummerPokemon.png",
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/taxcalculatorapp.png",
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/tyadesu.png"
     ];
 
     // 作品のタイトル
@@ -49,18 +49,18 @@ window.onload = function() {
     ];
 
     const Links = [
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/Work/Angeltyan/angeltyan.html",
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/Work/AnimalHotSpringirast/animalhotspringirast",
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/Work/GandomBall/gandomball.html",
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/Work/Hotroom/hotroom.html",
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/Work/JumpGandom/jumpgandom.html",
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/Work/Konanirast/konanirast.html",
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/Work/redboxvspurplebox/RedBoxvsPurpleBox.html",
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/Work/Reimu/reimu.html",
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/Work/Skytower/skytower.html",
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/Work/SummerPokemon/summerpokemon.html",
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/Work/TaxCalculatorApp/TaxCalculatorApp.html",
-        "https://kojake.github.io/Nmiddleschool-AKIBACampus-Site/Work/tyadesu/tyadesu.html"
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/Angeltyan/angeltyan.html",
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/AnimalHotSpringirast/animalhotspringirast",
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/GandomBall/gandomball.html",
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/Hotroom/hotroom.html",
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/JumpGandom/jumpgandom.html",
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/Konanirast/konanirast.html",
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/redboxvspurplebox/RedBoxvsPurpleBox.html",
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/Reimu/reimu.html",
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/Skytower/skytower.html",
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/SummerPokemon/summerpokemon.html",
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/TaxCalculatorApp/TaxCalculatorApp.html",
+        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/tyadesu/tyadesu.html"
     ]
 
     // ランダムなインデックスを生成
