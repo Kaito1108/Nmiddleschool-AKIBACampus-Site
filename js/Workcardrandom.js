@@ -5,14 +5,9 @@ window.onload = function() {
         "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/AnimalHotSpringirast.png",
         "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/GandomBall.png",
         "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/hotroom.png",
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/JumpGandom.png",
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/Konan.png",
         "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/redboxvspurplebox.png",
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/Reimu.png",
         "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/skytower.png",
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/SummerPokemon.png",
         "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/taxcalculatorapp.png",
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/tyadesu.png"
     ];
 
     // 作品のタイトル
@@ -21,14 +16,9 @@ window.onload = function() {
         "温泉",
         "ボール",
         "暖色部屋",
-        "ゼルダの盾 & 飛ぶガンダム",
-        "コナンイラスト",
         "赤箱vs紫箱",
-        "霊夢",
         "Skytower",
-        "夏",
         "税金計算アプリ",
-        "チャデス"
     ];
 
     // 作品の説明
@@ -38,14 +28,9 @@ window.onload = function() {
         "動物たちが温泉に入っている絵を描きました。",
         "機動戦士ガンダムに登場するボールという機体をBlenderで再現してみました。",
         "机と椅子",
-        "Blenderで作ったガンダムが空を飛んでいる動画",
-        "模写絵",
         "球をぶっ放すして赤箱を破壊するゲーム",
-        "自分の好きなキャラクターを描きました。",
         "テレビゲーム「星のカービィ Wii」の曲「スカイタワー」のピアノ",
-        "ポケモンたちをblenderで作りました",
         "消費税、所得税（製作中）、法人税（製作中）を計算できるアプリを製作している。",
-        "ポケモン作りました、"
     ];
 
     const Links = [
@@ -53,14 +38,9 @@ window.onload = function() {
         "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/AnimalHotSpringirast/animalhotspringirast",
         "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/GandomBall/gandomball.html",
         "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/Hotroom/hotroom.html",
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/JumpGandom/jumpgandom.html",
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/Konanirast/konanirast.html",
         "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/redboxvspurplebox/RedBoxvsPurpleBox.html",
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/Reimu/reimu.html",
         "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/Skytower/skytower.html",
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/SummerPokemon/summerpokemon.html",
         "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/TaxCalculatorApp/TaxCalculatorApp.html",
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/tyadesu/tyadesu.html"
     ]
 
     // ランダムなインデックスを生成
