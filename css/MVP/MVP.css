@@ -1,41 +1,38 @@
 .MVP {
-    display: flex;
     background-color: white;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin-top: 0px;
 }
 
-.MVP .MVP-warapper {
-    display: flex;
-    background-color: white;
-    align-items: center;
-    justify-content: center;
-}
-
-.MVP .mvp-title {
+.MVP-title {
+    margin: auto;
+    display: block;
     width: 400px;
-    height: 200px;
 }
 
-@media (max-width: 700px) {
-    .MVP {
-        background-color: white;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 0px;
-    }
-    
-    .MVP .MVP-warapper {
-        background-color: white;
-        align-items: center;
-        justify-content: center;
-    }
+.MVP-warapper {
+    display: block;
+    unicode-bidi: isolate;
+}
 
-    .MVP .mvp-title {
+.MVPArea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 570px) {
+    .MVP-title {
+        margin: auto;
+        display: block;
         width: 300px;
-        height: 200px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .MVP-title {
+        margin: auto;
+        display: block;
+        width: 250px;
     }
 }

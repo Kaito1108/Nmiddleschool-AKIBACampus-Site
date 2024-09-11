@@ -365,3 +365,11 @@ a.btn--circle:hover {
         box-shadow: 0 3px 0 #1a4551;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .btn,
+    a.btn,
+    button.btn {
+        display: none;
+    }
+}
