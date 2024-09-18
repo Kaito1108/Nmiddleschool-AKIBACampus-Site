@@ -15,10 +15,10 @@
 }
 
 
-.mvp-card-content .mvp-card-crown {
+.mvp-card-content .mvp-img {
     background-color: whitesmoke;
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 250px;
 }
 
 .mvp-card-content {
@@ -36,7 +36,7 @@
 }
 
 .mvp-card-content .mvp-card-title {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
     color: inherit;
     text-transform: uppercase;
@@ -65,10 +65,10 @@
     }
     
     
-    .mvp-card-content .mvp-card-crown {
+    .mvp-card-content .mvp-img {
         background-color: whitesmoke;
-        width: 40px;
-        height: 40px;
+        width: 80px;
+        height: 100px;
     }
     
     .mvp-card-content {
