@@ -38,17 +38,17 @@ const mvpData = [
     { img: "https://www.akibacampus.com/image/MVP/74.png", title: "グッドアイデア賞", name: "サンズさん" },
     { img: "https://www.akibacampus.com/image/MVP/75.png", title: "リアクションをして相手が話し安い環境を作ってくれたで賞", name: "漆原聖仁さん" },
     { img: "https://www.akibacampus.com/image/MVP/76.png", title: "リアクションをして相手が話し安い環境を作ってくれたで賞", name: "TABS好き男" },
-    { img: "https://www.akibacampus.com/image/MVP/77.jpg", title: "リアクションをして相手が話し安い環境を作ってくれたで賞", name: "ばななさん" },
-    { img: "https://www.akibacampus.com/image/MVP/78.jpg", title: "LT登壇頑張ったで賞", name: "荻野少年さん" },
-    { img: "https://www.akibacampus.com/image/MVP/79.jpg", title: "LT登壇頑張ったで賞", name: "サンズさん" },
-    { img: "https://www.akibacampus.com/image/MVP/80.jpg", title: "元気な挨拶で賞", name: "issei_miyamotoさん" },
-    { img: "https://www.akibacampus.com/image/MVP/81.jpg", title: "元気な挨拶で賞", name: "フィッシュさん" },
-    { img: "https://www.akibacampus.com/image/MVP/82.jpg", title: "元気な挨拶で賞", name: "ローマ字兄貴さん" },
-    { img: "https://www.akibacampus.com/image/MVP/83.jpg", title: "元気な挨拶で賞", name: "STさん" },
-    { img: "https://www.akibacampus.com/image/MVP/84.jpg", title: "元気な挨拶で賞", name: "Airaさん" },
-    { img: "https://www.akibacampus.com/image/MVP/85.jpg", title: "元気な挨拶で賞", name: "やくにくESETアンチさん" },
-    { img: "https://www.akibacampus.com/image/MVP/86.jpg", title: "元気な挨拶で賞", name: "Kousinさん" },
-    { img: "https://www.akibacampus.com/image/MVP/87.jpg", title: "元気な挨拶で賞", name: "しゅーくりーむさん" }    
+    { img: "https://www.akibacampus.com/image/MVP/77.png", title: "リアクションをして相手が話し安い環境を作ってくれたで賞", name: "ばななさん" },
+    { img: "https://www.akibacampus.com/image/MVP/78.png", title: "LT登壇頑張ったで賞", name: "荻野少年さん" },
+    { img: "https://www.akibacampus.com/image/MVP/79.png", title: "LT登壇頑張ったで賞", name: "サンズさん" },
+    { img: "https://www.akibacampus.com/image/MVP/80.png", title: "元気な挨拶で賞", name: "issei_miyamotoさん" },
+    { img: "https://www.akibacampus.com/image/MVP/81.png", title: "元気な挨拶で賞", name: "フィッシュさん" },
+    { img: "https://www.akibacampus.com/image/MVP/82.png", title: "元気な挨拶で賞", name: "ローマ字兄貴さん" },
+    { img: "https://www.akibacampus.com/image/MVP/83.png", title: "元気な挨拶で賞", name: "STさん" },
+    { img: "https://www.akibacampus.com/image/MVP/84.png", title: "元気な挨拶で賞", name: "Airaさん" },
+    { img: "https://www.akibacampus.com/image/MVP/85.png", title: "元気な挨拶で賞", name: "やくにくESETアンチさん" },
+    { img: "https://www.akibacampus.com/image/MVP/86.png", title: "元気な挨拶で賞", name: "Kousinさん" },
+    { img: "https://www.akibacampus.com/image/MVP/87.png", title: "元気な挨拶で賞", name: "しゅーくりーむさん" }    
 ];
 
 // ギャラリーを生成する関数
