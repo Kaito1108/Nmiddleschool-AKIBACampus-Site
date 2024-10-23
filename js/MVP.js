@@ -1,5 +1,5 @@
 const mvpData = [
-    { img: "https://www.akibacampus.com/image/MVP/37.jpg", title: "ポートフォリオコツコツ記録できたで賞", name: "かわずさん" },
+    { img: "https://github.com/Kaito1108/Nmiddleschool-AKIBACampus-Site/blob/main/image/MVP/37.png", title: "ポートフォリオコツコツ記録できたで賞", name: "かわずさん" },
     { img: "https://www.akibacampus.com/image/MVP/38.jpg", title: "ポートフォリオコツコツ記録できたで賞", name: "しまさん" },
     { img: "https://www.akibacampus.com/image/MVP/39.jpg", title: "ポートフォリオコツコツ記録できたで賞", name: "白詰草さん" },
     { img: "https://www.akibacampus.com/image/MVP/40.jpg", title: "ポートフォリオコツコツ記録できたで賞", name: "ヨッシーさん" },
