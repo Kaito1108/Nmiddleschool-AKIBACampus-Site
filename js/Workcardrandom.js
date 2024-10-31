@@ -1,13 +1,14 @@
-window.onload = function() {
+// すでにonloadイベントがある場合は、新しい関数を追加する方法
+window.addEventListener('load', function() {
     // 作品の画像
     const images = [
-        'https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/AllWork/image/Angeltyan.png',
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/AnimalHotSpringirast.png",
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/GandomBall.png",
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/hotroom.png",
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/redboxvspurplebox.png",
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/skytower.png",
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site//AllWork/image/taxcalculatorapp.png",
+        'https://www.akibacampus.com//AllWork/image/Angeltyan.png',
+        "https://www.akibacampus.com///AllWork/image/AnimalHotSpringirast.png",
+        "https://www.akibacampus.com///AllWork/image/GandomBall.png",
+        "https://www.akibacampus.com///AllWork/image/hotroom.png",
+        "https://www.akibacampus.com///AllWork/image/redboxvspurplebox.png",
+        "https://www.akibacampus.com///AllWork/image/skytower.png",
+        "https://www.akibacampus.com///AllWork/image/taxcalculatorapp.png",
     ];
 
     // 作品のタイトル
@@ -22,7 +23,6 @@ window.onload = function() {
     ];
 
     // 作品の説明
-
     const Details = [
         "ChromeCanvasというサイトで絵を描きました",
         "動物たちが温泉に入っている絵を描きました。",
@@ -34,45 +34,46 @@ window.onload = function() {
     ];
 
     const Links = [
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/Angeltyan/angeltyan.html",
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/AnimalHotSpringirast/animalhotspringirast",
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/GandomBall/gandomball.html",
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/Hotroom/hotroom.html",
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/redboxvspurplebox/RedBoxvsPurpleBox.html",
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/Skytower/skytower.html",
-        "https://kaito1108.github.io/Nmiddleschool-AKIBACampus-Site/Work/TaxCalculatorApp/TaxCalculatorApp.html",
-    ]
+        "https://www.akibacampus.com//Work/Angeltyan/angeltyan.html",
+        "https://www.akibacampus.com//Work/AnimalHotSpringirast/animalhotspringirast",
+        "https://www.akibacampus.com//Work/GandomBall/gandomball.html",
+        "https://www.akibacampus.com//Work/Hotroom/hotroom.html",
+        "https://www.akibacampus.com//Work/redboxvspurplebox/RedBoxvsPurpleBox.html",
+        "https://www.akibacampus.com//Work/Skytower/skytower.html",
+        "https://www.akibacampus.com//Work/TaxCalculatorApp/TaxCalculatorApp.html",
+    ];
+
+    // 重複を避けるためのユニークなランダム選択関数
+    function getUniqueRandomIndexes(length, count) {
+        const indexes = new Set();
+        while(indexes.size < count) {
+            const randomIndex = Math.floor(Math.random() * length);
+            indexes.add(randomIndex);
+        }
+        return Array.from(indexes);
+    }
 
     // ランダムなインデックスを生成
-    const randomIndex1 = Math.floor(Math.random() * images.length);
-    const randomIndex2 = Math.floor(Math.random() * images.length);
-    const randomIndex3 = Math.floor(Math.random() * images.length);
+    const randomIndexes = getUniqueRandomIndexes(images.length, 3);
 
-    // 画像要素とテキスト要素を取得し、ランダムな画像とテキストを設定
-    const imgElement1 = document.getElementById('randomImage1');
-    const titleElement1 = document.getElementById('randomTitles1');
-    const detailElement1 = document.getElementById('randomDetails1');
-    const linkElement1 = document.getElementById('randomLink1');
-    imgElement1.src = images[randomIndex1];
-    titleElement1.textContent = Titles[randomIndex1];
-    detailElement1.textContent = Details[randomIndex1];
-    linkElement1.href = Links[randomIndex1];
+    // 各要素にランダムな画像とテキストを設定
+    const elementIds = [
+        { img: 'randomImage1', title: 'randomTitles1', detail: 'randomDetails1', link: 'randomLink1' },
+        { img: 'randomImage2', title: 'randomTitles2', detail: 'randomDetails2', link: 'randomLink2' },
+        { img: 'randomImage3', title: 'randomTitles3', detail: 'randomDetails3', link: 'randomLink3' }
+    ];
 
-    const imgElement2 = document.getElementById('randomImage2');
-    const titleElement2 = document.getElementById('randomTitles2');
-    const detailElement2 = document.getElementById('randomDetails2');
-    const linkElement2 = document.getElementById('randomLink2');
-    imgElement2.src = images[randomIndex2];
-    titleElement2.textContent = Titles[randomIndex2];
-    detailElement2.textContent = Details[randomIndex2];
-    linkElement2.href = Links[randomIndex2];
+    randomIndexes.forEach((randomIndex, index) => {
+        const imgElement = document.getElementById(elementIds[index].img);
+        const titleElement = document.getElementById(elementIds[index].title);
+        const detailElement = document.getElementById(elementIds[index].detail);
+        const linkElement = document.getElementById(elementIds[index].link);
 
-    const imgElement3 = document.getElementById('randomImage3');
-    const titleElement3 = document.getElementById('randomTitles3');
-    const detailElement3 = document.getElementById('randomDetails3');
-    const linkElement3 = document.getElementById('randomLink3');
-    imgElement3.src = images[randomIndex3];
-    titleElement3.textContent = Titles[randomIndex3];
-    detailElement3.textContent = Details[randomIndex3];
-    linkElement3.href = Links[randomIndex3];
-};
+        if (imgElement && titleElement && detailElement && linkElement) {
+            imgElement.src = images[randomIndex];
+            titleElement.textContent = Titles[randomIndex];
+            detailElement.textContent = Details[randomIndex];
+            linkElement.href = Links[randomIndex];
+        }
+    });
+});
